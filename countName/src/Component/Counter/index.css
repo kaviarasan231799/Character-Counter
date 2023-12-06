@@ -1,0 +1,81 @@
+* {
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.app-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.card-container {
+  display: flex;
+  justify-content: center;
+  height: 80%;
+  width: 80%;
+  align-items: center;
+  justify-content: center;
+}
+.img-input {
+  height: 250px;
+}
+.para {
+  color: #334155;
+  font-size: 25px;
+  font-family: 'Roboto';
+  padding-top: 5px;
+  font-weight: 600;
+}
+.first-card {
+  background-color: #ffc533;
+  height: 100%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 10px;
+}
+.second-card {
+  background-color: #0f172a;
+  height: 100%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.heading-counter {
+  color: #ffbf1f;
+  font-size: 35px;
+  font-family: 'Roboto';
+  padding-top: 10px;
+}
+.form-container {
+  padding-top: 15px;
+}
+.input-box {
+  height: 40px;
+  width: 370px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 0px;
+  margin-top: 10px;
+}
+.add-button {
+  height: 40px;
+  width: 80px;
+  margin-left: 10px;
+  border-radius: 5px;
+  background-color: #ffbf1f;
+}
+
+.un-order-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding-top: 10px;
+}
